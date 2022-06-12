@@ -1,6 +1,6 @@
 export function AboutMe(): JSX.Element {
   return (
-    <section className="about-me bg-mid">
+    <section className="about-me bg-mid" id="AboutMe">
       <div className="container">
         <div className="split">
           <div>
