@@ -1,8 +1,10 @@
+import {useState} from 'react'
 export function Header(): JSX.Element {
+  const [isActive, setIsActive] = useState<boolean>(false)
   return (
-    <header>
-      <div className="logo"></div>
-      <button className="nav-toggle" aria-label="toggle navigation">
+    <header className={isActive? 'nav-open':''}>
+      
+      <button className={isActive? " nav-toggle nav-icon-light ": "nav-toggle"} aria-label="toggle navigation" onClick={() => setIsActive(!isActive)}>
         {/* <span className="hamburger-menu"> */}
         <i className="fa-solid fa-bars hamburger-menu"></i>
         {/* </span> */}
@@ -12,7 +14,7 @@ export function Header(): JSX.Element {
           <li className="nav__item">
             <a
               className="nav__link"
-              href="https://www.w3schools.com/css/css_rwd_viewport.asp"
+              href="#home"
             >
               home
             </a>
