@@ -1,6 +1,6 @@
 export function MyWork(): JSX.Element {
   return (
-    <section className="my-work bg-dark">
+    <section className="my-work bg-dark" id="MyWork">
       <div className="container">
         <div className="my-work-text">
           <h2 className="section--title">My Work</h2>

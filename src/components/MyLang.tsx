@@ -1,6 +1,6 @@
 export function MyLang(): JSX.Element {
   return (
-    <section className="my-languages bg-light">
+    <section className="my-languages bg-light" id="MyLang">
       <div className="container">
         <div className="split">
           <div>

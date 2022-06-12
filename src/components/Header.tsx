@@ -1,6 +1,10 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 export function Header(): JSX.Element {
   const [isActive, setIsActive] = useState<boolean>(false);
+  const closeNavigation = () => {
+    setIsActive(false);
+  };
   return (
     <header className={isActive ? "nav-open" : ""}>
       <button
@@ -15,24 +19,24 @@ export function Header(): JSX.Element {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a className="nav__link" href="#home">
-              home
-            </a>
+            <Link className="nav__link" to="AboutMe" onClick={closeNavigation}>
+              Home
+            </Link>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#AboutMe">
-              About Me
-            </a>
+            <Link className="nav__link" to="MyLang" onClick={closeNavigation}>
+              Languages/Tech
+            </Link>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#MyWork">
+            <Link className="nav__link" to="MyWork" onClick={closeNavigation}>
               My Work
-            </a>
+            </Link>
           </li>
           <li className="nav__item">
-            <a className="nav__link" href="#Footer">
+            <Link className="nav__link" to="Footer" onClick={closeNavigation}>
               Contact Me
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

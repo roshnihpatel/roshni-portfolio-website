@@ -1,6 +1,6 @@
 export function Footer(): JSX.Element {
   return (
-    <section className=" footer bg-dark-2">
+    <section className=" footer bg-dark-2" id="Footer">
       <div className="container">
         <h2 className="section--title section--title-footer">
           Connect With Me
