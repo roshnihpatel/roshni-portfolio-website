@@ -278,14 +278,18 @@ header{
 }
 .hamburger-menu{
     display: block;
-    position: relative;
+    position: fixed;
     border: none;
 }
 
 .nav-open .nav{
     transform: translateX(0);
 }
+header i {
+    position: fixed;
+}
 .nav-icon-light i{
+    position: fixed;
     color: var(--clr-neutral-100);
 }
 /* .hamburger-menu,
