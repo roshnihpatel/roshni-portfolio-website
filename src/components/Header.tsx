@@ -1,13 +1,11 @@
 export function Header(): JSX.Element {
   return (
     <header>
-      <div className="logo">
-        
-      </div>
+      <div className="logo"></div>
       <button className="nav-toggle" aria-label="toggle navigation">
         {/* <span className="hamburger-menu"> */}
-          <i className="fa-solid fa-bars hamburger-menu"></i>
-          {/* </span> */}
+        <i className="fa-solid fa-bars hamburger-menu"></i>
+        {/* </span> */}
       </button>
       <nav className="nav">
         <ul className="nav__list">
