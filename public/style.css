@@ -167,14 +167,15 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
 
 }
-.languages-list i{
- padding-right: 0.5rem;
- color: var(--clr-dark-500);
-}
+
 .langauges-list__item{
     line-height: 3rem;
 }
-
+.language-list__icon{
+    
+    padding-right: 0.5rem;
+    color: var(--clr-dark-500);
+}
 
 /*=============
 ===portfolio===
@@ -315,6 +316,38 @@ header i {
     width: min(30%, 100rem)
 
 }
+
+.iconify-home{
+    position: fixed;
+    transform: scale(1.5);
+    color: var(--clr-dark-500);
+}
+.home-nav{
+display: flex;
+justify-content: right;
+margin-right: 3rem;
+margin-top: 2.5rem;
+
+}
+.iconify-link{
+    color: var(--clr-dark-500);
+   
+    
+    margin-right: 0.25rem;
+}
+
+.links-list{
+    margin-top: 5rem;
+    width: min(80%, 50rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list span{
+    margin-top:5rem;
+}
+    
+ 
 
 
 

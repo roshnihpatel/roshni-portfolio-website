@@ -15,28 +15,116 @@ export function MyLang(): JSX.Element {
             </h2>
             <ul className="languages-list">
               <li className="langauges-list__item">
-                <i className="fa-brands fa-js language-list__icon"></i>
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="cib:typescript"
+                ></span>
                 TypeSctript
               </li>
               <li className="langauges-list__item">
-                <i className="fa-brands fa-js language-list__icon"></i>
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="fa-brands:js"
+                ></span>
                 JavaSctript
               </li>
               <li className="langauges-list__item">
-                <i className="fa-brands fa-react language-list__icon"></i>React
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:react-fill"
+                ></span>
+                React
               </li>
               <li className="langauges-list__item">
-                <i className="fa-brands fa-html5 language-list__icon"></i>HTML
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:html-fill"
+                ></span>
+                HTML
               </li>
               <li className="langauges-list__item">
-                <i className="fa-thin fa-code language-list__icon"></i>CSS
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:css-fill"
+                ></span>
+                CSS
               </li>
               <li className="langauges-list__item">
-                <i className="fa-thin fa-code language-list__icon"></i>GitHub
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="bxl:nodejs"
+                ></span>
+                Node.js
               </li>
               <li className="langauges-list__item">
-                <i className="fa-brands fa-bootstrap language-list__icon"></i>
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:github-fill"
+                ></span>
+                GitHub
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:bootstrap-fill"
+                ></span>
                 Bootstrap
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="bx:code-alt"
+                ></span>
+                Express
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="dashicons:database"
+                ></span>
+                SQL
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="akar-icons:postgresql-fill"
+                ></span>
+                PostgreSQL
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="bxl:netlify"
+                ></span>
+                Netlify
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="bxl:heroku"
+                ></span>
+                Heroku
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="simple-icons:cypress"
+                ></span>
+                Cypress
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="file-icons:jest"
+                ></span>
+                Jest
+              </li>
+              <li className="langauges-list__item">
+                <span
+                  className="iconify language-list__icon"
+                  data-icon="cib:postman"
+                ></span>
+                PostMan
               </li>
             </ul>
           </div>

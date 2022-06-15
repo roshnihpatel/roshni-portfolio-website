@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function MyWork(): JSX.Element {
   return (
     <section className="my-work bg-dark" id="MyWork">
@@ -7,46 +9,43 @@ export function MyWork(): JSX.Element {
           <p className="section--subtitle">Check out my projects</p>
         </div>
         <div className="portfolio">
-          <a
-            className="portfolio__item"
-            href="https://www.w3schools.com/css/css_rwd_viewport.asp"
-          >
-            <img
-              className="portfolio__img"
-              src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt="plan of app on paper"
-            />
-          </a>
-          <a
-            className="portfolio__item"
-            href="https://www.w3schools.com/css/css_rwd_viewport.asp"
-          >
-            <img
-              className="portfolio__img"
-              src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt="plan of app on paper"
-            />
-          </a>
-          <a
-            className="portfolio__item"
-            href="https://www.w3schools.com/css/css_rwd_viewport.asp"
-          >
-            <img
-              className="portfolio__img"
-              src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt="plan of app on paper"
-            />
-          </a>
-          <a
-            className="portfolio__item"
-            href="https://www.w3schools.com/css/css_rwd_viewport.asp"
-          >
-            <img
-              className="portfolio__img"
-              src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt="plan of app on paper"
-            />
-          </a>
+          <div className="portfolio__item">
+            <Link to="portfolio-app">
+              <img
+                className="portfolio__img"
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="plan of app on paper"
+              />
+            </Link>
+          </div>
+
+          <div className="portfolio__item">
+            <Link to="dog-voting-app">
+              <img
+                className="portfolio__img"
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="plan of app on paper"
+              />
+            </Link>
+          </div>
+          <div className="portfolio__item">
+            <Link to="study-budy">
+              <img
+                className="portfolio__img"
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="plan of app on paper"
+              />
+            </Link>
+          </div>
+          <div className="portfolio__item">
+            <Link to="creative-coding-crystals">
+              <img
+                className="portfolio__img"
+                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="plan of app on paper"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </section>
