@@ -39,7 +39,10 @@
 /*===================
  ===general set up===
  ====================*/
-body{
+html, body{
+    height: 100%;
+}
+ body{
     margin: 0, 2rem;
     font-size: var(--fs--body);
     font-family: var(--ff--primary);
@@ -204,7 +207,8 @@ ul {
 ===========*/
 
 .footer{
-    padding-bottom: 0;
+    
+    padding-bottom: 1.5rem;
     margin-bottom: 0;
 
 }
@@ -212,6 +216,7 @@ ul {
    display: flex;
    justify-content: center;
    margin-top: 2rem;
+   margin-bottom: 2rem;
    padding: 0;
 }
 .social-list__item{
@@ -301,6 +306,15 @@ header i {
     border-radius: 1rem;
     transition: tranform 250ms case-in-out;
 }*/
+.crystals{
+    margin-block: 0;
+    display: flex;
+} 
+
+.crystal-container{
+    width: min(30%, 100rem)
+
+}
 
 
 
