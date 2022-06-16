@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 
+import creative_coding from "./images/creative-coding.png";
+import dog_app from "./images/dog-app.png";
+import study_budy from "./images/study-buddy.png";
+import portfolio from "./images/portfolio.png";
+
 export function MyWork(): JSX.Element {
   return (
     <section className="my-work bg-dark" id="MyWork">
@@ -13,8 +18,8 @@ export function MyWork(): JSX.Element {
             <Link to="portfolio-app">
               <img
                 className="portfolio__img"
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="plan of app on paper"
+                src={portfolio}
+                alt="portfolio app screen shot"
               />
             </Link>
           </div>
@@ -23,8 +28,8 @@ export function MyWork(): JSX.Element {
             <Link to="dog-voting-app">
               <img
                 className="portfolio__img"
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="plan of app on paper"
+                src={dog_app}
+                alt="dog-app screen shot"
               />
             </Link>
           </div>
@@ -32,8 +37,8 @@ export function MyWork(): JSX.Element {
             <Link to="study-budy">
               <img
                 className="portfolio__img"
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="plan of app on paper"
+                src={study_budy}
+                alt="study buddy app screen shot"
               />
             </Link>
           </div>
@@ -41,8 +46,8 @@ export function MyWork(): JSX.Element {
             <Link to="creative-coding-crystals">
               <img
                 className="portfolio__img"
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="plan of app on paper"
+                src={creative_coding}
+                alt="creative coding crystals screen shot"
               />
             </Link>
           </div>

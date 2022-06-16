@@ -4,11 +4,13 @@ import { PortfolioApp } from "./components/MyWorkPages/PortfolioApp";
 import { CreativeCodingCrystals } from "./components/MyWorkPages/CreativeCodingCrystals";
 import { DogApp } from "./components/MyWorkPages/DogApp";
 import { StudyBuddy } from "./components/MyWorkPages/StudyBuddy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App(): JSX.Element {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
 

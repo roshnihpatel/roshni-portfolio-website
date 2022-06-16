@@ -1,5 +1,5 @@
 import { Footer } from "../Footer";
-
+import dog_app from "../images/dog-app.png";
 import { Link } from "react-router-dom";
 import { Crystals } from "../Crystals";
 
@@ -122,10 +122,7 @@ export function DogApp(): JSX.Element {
               </ul>
             </div>
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="laptop with code onscreen on a white desk with a desk plant"
-              />
+              <img src={dog_app} alt="dog app screen shot" />
             </div>
           </div>
         </div>
