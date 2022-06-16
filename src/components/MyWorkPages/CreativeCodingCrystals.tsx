@@ -21,40 +21,56 @@ export function CreativeCodingCrystals(): JSX.Element {
           <div className="split">
             <div>
               <h1 className="section--title">
-                <strong>Creative Coding </strong>
+                <strong> Crystals </strong>
               </h1>
-              <p className="section--subtitle">Full-Stack Developer</p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <p className="section--subtitle">p5.js creative coding project</p>
+              <p className="project-info">
+                This is a personal creative coding project I completed by
+                following a tutorial by{" "}
+                <a
+                  href="https://github.com/matthewepler/Generative-Design-Systems-with-P5js"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-info__link"
+                >
+                  Mathew Epler{" "}
+                </a>{" "}
+                using the p5.js library. This project is my first introduction
+                to generative design and object-oriented programming and I found
+                the process both educational and enjoyable.
+                <br />
+                <br />
+                The main things I learned from this project are e
               </p>
+              <ul className="learned-list">
+                <li className="learned-list__item">
+                  <span
+                    className="iconify iconify-chevron"
+                    data-icon="ci:chevron-right"
+                  ></span>
+                  How to use classes in JavaScript to write OOP
+                </li>
+                <li className="learned-list__item">
+                  <span
+                    className="iconify iconify-chevron"
+                    data-icon="ci:chevron-right"
+                  ></span>
+                  Understanding and using inheritance to reuse cod
+                </li>
+              </ul>
               <ul className="links-list">
                 <li className="links-list__item">
-                  <span
-                    className="iconify iconify-link"
-                    data-icon="fluent:app-generic-20-filled"
-                  ></span>
-                  App
-                </li>
-
-                <li className="links-list__item">
-                  <span
-                    className="iconify iconify-link"
-                    data-icon="carbon:document"
-                  ></span>
-                  Documentation
-                </li>
-                <li className="links-list__item">
-                  <span
-                    className="iconify iconify-link"
-                    data-icon="bx:code-alt"
-                  ></span>
-                  Code
+                  <a
+                    href="https://openprocessing.org/sketch/1559931"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span
+                      className="iconify iconify-link"
+                      data-icon="bx:code-alt"
+                    ></span>
+                    Code
+                  </a>
                 </li>
               </ul>
             </div>

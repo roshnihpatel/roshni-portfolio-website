@@ -5,11 +5,14 @@ export function Footer(): JSX.Element {
         <h2 className="section--title section--title-footer">
           Connect With Me
         </h2>
+        <p className="footer-email">roshnihpatel@outlook.com</p>
         <ul className="social-list">
           <li className="social-list__item">
             <a
               className="social-list__link"
-              href="https://fontawesome.com/icons/linkedin?s=brands"
+              href="https://github.com/roshnihpatel"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="fa-brands fa-github social-list__icon"></i>
             </a>
@@ -17,7 +20,9 @@ export function Footer(): JSX.Element {
           <li className="social-list__item">
             <a
               className="social-list__link"
-              href="https://fontawesome.com/icons/linkedin?s=brands"
+              href="www.linkedin.com/in/roshni-patel-069895216"
+              target="_blank"
+              rel="noreferrer"
             >
               <i className="fa-brands fa-linkedin social-list-icon"></i>
             </a>
