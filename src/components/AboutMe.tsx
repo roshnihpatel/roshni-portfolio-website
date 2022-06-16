@@ -8,14 +8,18 @@ export function AboutMe(): JSX.Element {
               Hi, I'm <strong>Roshni</strong>
             </h1>
             <p className="section--subtitle">Full-Stack Developer</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="section--subtitle__description">
+              Having just completed a coding boot camp (Academy) I am eager to
+              continue my tech journey. I have a background in chemistry but I
+              was motivated to start a career in tech because I felt like I was
+              joining a fast-growing and exciting industry with many
+              opportunities to learn. I knew I could bring and develop the
+              problem-solving and analytical skills that I used in my degree and
+              also practise using my creativity and collaboration skills.
+              <br />
+              <br />I have really enjoyed learning how to code and am excited to
+              continue learning and applying what I have learnt in a working
+              envionment.
             </p>
           </div>
           <div>

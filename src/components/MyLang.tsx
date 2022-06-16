@@ -11,7 +11,7 @@ export function MyLang(): JSX.Element {
           </div>
           <div>
             <h2 className="section--title section--title--narrow">
-              My Languages/Technologies
+              My Languages / Technologies
             </h2>
             <ul className="languages-list">
               <li className="langauges-list__item">
