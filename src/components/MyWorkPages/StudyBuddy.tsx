@@ -1,5 +1,5 @@
 import { Footer } from "../Footer";
-
+import study_buddy from "../images/study-buddy.png";
 import { Link } from "react-router-dom";
 import { Crystals } from "../Crystals";
 
@@ -26,9 +26,18 @@ export function StudyBuddy(): JSX.Element {
               <p className="section--subtitle">Full-Stack App</p>
               <p className="project-info">
                 The Study Buddy App is an app designed for sharing study
-                resources within our cohort of Academy (coding boot camp). This
-                was a group project and was completed in a 2-week sprint. The
-                app uses React, TypeScript, Node.js, PostgreSQL and Express.
+                resources within our cohort of{" "}
+                <a
+                  href="https://academy.tech/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-info__link"
+                >
+                  Academy
+                </a>{" "}
+                (coding boot camp). This was a group project and was completed
+                in a 2-week sprint. The app uses React, TypeScript, Node.js,
+                PostgreSQL and Express.
                 <br />
                 <br />
                 The main things I learned from this project are:
@@ -121,10 +130,7 @@ export function StudyBuddy(): JSX.Element {
               </ul>
             </div>
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                alt="laptop with code onscreen on a white desk with a desk plant"
-              />
+              <img src={study_buddy} alt="study budy app screen shot" />
             </div>
           </div>
         </div>

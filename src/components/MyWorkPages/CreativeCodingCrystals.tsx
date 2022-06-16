@@ -1,5 +1,5 @@
 import { Footer } from "../Footer";
-
+import creative_coding from "../images/creative-coding.png";
 import { Link } from "react-router-dom";
 import { Crystals } from "../Crystals";
 
@@ -55,7 +55,7 @@ export function CreativeCodingCrystals(): JSX.Element {
                     className="iconify iconify-chevron"
                     data-icon="ci:chevron-right"
                   ></span>
-                  Understanding and using inheritance to reuse cod
+                  Understanding and using inheritance to reuse code
                 </li>
               </ul>
               <ul className="links-list">
@@ -76,7 +76,7 @@ export function CreativeCodingCrystals(): JSX.Element {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                src={creative_coding}
                 alt="laptop with code onscreen on a white desk with a desk plant"
               />
             </div>
