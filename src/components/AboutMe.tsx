@@ -19,11 +19,11 @@ export function AboutMe(): JSX.Element {
                 Academy
               </a>{" "}
               ) I am eager to continue my tech journey. I have a background in
-              chemistry but I was motivated to start a career in tech because I
-              felt like I was joining a fast-growing and exciting industry with
-              many opportunities to learn. I knew I could bring and develop the
-              problem-solving and analytical skills that I used in my degree and
-              also practise using my creativity and collaboration skills.
+              chemistry but I am motivated to start a career in tech and join
+              such a fast-growing and exciting industry with many opportunities
+              to learn. I'm ready to apply the problem-solving and analytical
+              skills that I used in my degree and also practise using my
+              creativity and collaboration skills as I move forward.
               <br />
               <br />I have really enjoyed learning how to code and am excited to
               continue learning and applying what I have learnt in a working
@@ -34,6 +34,7 @@ export function AboutMe(): JSX.Element {
             <img
               src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
               alt="laptop with code onscreen on a white desk with a desk plant"
+              className="stock-img"
             />
           </div>
         </div>

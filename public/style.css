@@ -138,6 +138,11 @@ section {
     }
   }
 }
+.stock-img{
+    margin-block: 2rem;
+
+    
+}
 
 .container{
     margin: 0, auto;
@@ -165,6 +170,8 @@ section {
     .split > * + * {
         margin-left: 2em
     }
+    
+
 }
 
 /*================
@@ -283,7 +290,7 @@ header{
 .nav__link{
     color: inherit;
     font-weight: var(--fw--bold);
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .nav__link:hover{
     opacity: 0.5;
@@ -308,6 +315,7 @@ header{
 .nav-open .nav{
     transform: translateX(0);
 }
+
 header i {
     position: fixed;
 }
@@ -398,7 +406,7 @@ margin-top: 2.5rem;
 .links-list__item a{
     color: var(--clr-neutral-100);
     font-weight: var(--fw--bold);
-    text-decoration: none;
+    text-decoration: underline; 
 }
  
 
