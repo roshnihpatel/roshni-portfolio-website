@@ -20,7 +20,7 @@ export function Footer(): JSX.Element {
           <li className="social-list__item">
             <a
               className="social-list__link"
-              href="www.linkedin.com/in/roshni-patel-069895216"
+              href="https://www.linkedin.com/in/roshni-patel-069895216/"
               target="_blank"
               rel="noreferrer"
             >
