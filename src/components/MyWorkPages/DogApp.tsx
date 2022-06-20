@@ -25,8 +25,7 @@ export function DogApp(): JSX.Element {
               </h1>
               <p className="section--subtitle">Full-Stack App</p>
               <p className="project-info">
-                This dog voting app is the product of a 1-week sprint in a group
-                project from the coding boot camp course I was part of (
+              As part of a coding boot camp course (
                 <a
                   href="https://academy.tech/"
                   target="_blank"
@@ -35,8 +34,7 @@ export function DogApp(): JSX.Element {
                 >
                   Academy
                 </a>
-                ). The app uses React, TypeScript, Node.js, PostgreSQL and
-                Express.
+                ) I took part in, I developed this dog voting app in a group during a 1-week sprint. The app is built with React, TypeScript, Node.js, PostgreSQL and Express. 
                 <br />
                 <br />
                 The main things I learned from this project are:
@@ -48,7 +46,7 @@ export function DogApp(): JSX.Element {
                     className="iconify iconify-chevron"
                     data-icon="ci:chevron-right"
                   ></span>
-                  Collaboratively maintaining project documentation.
+                  Maintaining documentation collaboratively.
                 </li>
                 <li className="learned-list__item">
                   <span
@@ -62,7 +60,7 @@ export function DogApp(): JSX.Element {
                     className="iconify iconify-chevron"
                     data-icon="ci:chevron-right"
                   ></span>
-                  Presenting code to team members in a concise and clear way
+                  Concisely and clearly presenting code to team members
                 </li>
               </ul>
               <ul className="links-list">

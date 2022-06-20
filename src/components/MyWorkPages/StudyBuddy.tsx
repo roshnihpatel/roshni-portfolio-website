@@ -25,8 +25,7 @@ export function StudyBuddy(): JSX.Element {
               </h1>
               <p className="section--subtitle">Full-Stack App</p>
               <p className="project-info">
-                The Study Buddy App is an app designed for sharing study
-                resources within our cohort of{" "}
+              We have developed the Study Buddy App for students in our {" "}
                 <a
                   href="https://academy.tech/"
                   target="_blank"
@@ -35,9 +34,7 @@ export function StudyBuddy(): JSX.Element {
                 >
                   Academy
                 </a>{" "}
-                (coding boot camp). This was a group project and was completed
-                in a 2-week sprint. The app uses React, TypeScript, Node.js,
-                PostgreSQL and Express.
+                (coding boot camp) cohort to share study resources. This was a group project and was completed in a 2-week sprint. The app uses React, TypeScript, Node.js, PostgreSQL and Express.
                 <br />
                 <br />
                 The main things I learned from this project are:
@@ -48,8 +45,7 @@ export function StudyBuddy(): JSX.Element {
                     className="iconify iconify-chevron"
                     data-icon="ci:chevron-right"
                   ></span>
-                  Normalisation and creating and querying from relational
-                  databases.
+                  Normalisation and creating and querying from relational databases.
                 </li>
                 <li className="learned-list__item">
                   <span

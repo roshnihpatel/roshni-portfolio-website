@@ -25,22 +25,19 @@ export function CreativeCodingCrystals(): JSX.Element {
               </h1>
               <p className="section--subtitle">p5.js creative coding project</p>
               <p className="project-info">
-                This is a personal creative coding project I completed by
-                following a tutorial by{" "}
+              A personal creative coding project I completed using the p5.js library and following a tutorial by {" "}
                 <a
                   href="https://github.com/matthewepler/Generative-Design-Systems-with-P5js"
                   target="_blank"
                   rel="noreferrer"
                   className="project-info__link"
                 >
-                  Mathew Epler{" "}
+                  Mathew Epler.{" "}
                 </a>{" "}
-                using the p5.js library. This project is my first introduction
-                to generative design and object-oriented programming and I found
-                the process both educational and enjoyable.
+                As my first introduction to generative design and object-oriented programming, I found this project both educational and enjoyable
                 <br />
                 <br />
-                The main things I learned from this project are e
+                Here are the main things I learned from this project:
               </p>
               <ul className="learned-list">
                 <li className="learned-list__item">
