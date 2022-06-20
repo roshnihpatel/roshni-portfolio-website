@@ -25,7 +25,7 @@ export function DogApp(): JSX.Element {
               </h1>
               <p className="section--subtitle">Full-Stack App</p>
               <p className="project-info">
-              As part of a coding boot camp course (
+                As part of a coding boot camp course (
                 <a
                   href="https://academy.tech/"
                   target="_blank"
@@ -34,7 +34,9 @@ export function DogApp(): JSX.Element {
                 >
                   Academy
                 </a>
-                ) I took part in, I developed this dog voting app in a group during a 1-week sprint. The app is built with React, TypeScript, Node.js, PostgreSQL and Express. 
+                ) I took part in, I developed this dog voting app in a group
+                during a 1-week sprint. The app is built with React, TypeScript,
+                Node.js, PostgreSQL and Express.
                 <br />
                 <br />
                 The main things I learned from this project are:
