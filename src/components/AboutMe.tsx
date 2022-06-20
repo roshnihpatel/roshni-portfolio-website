@@ -9,7 +9,7 @@ export function AboutMe(): JSX.Element {
             </h1>
             <p className="section--subtitle">Full-Stack Developer</p>
             <p className="section--subtitle__description">
-              Having just completed a coding boot camp (
+              I recently graduated from a coding boot camp (
               <a
                 href="https://academy.tech/"
                 target="_blank"
@@ -18,16 +18,14 @@ export function AboutMe(): JSX.Element {
               >
                 Academy
               </a>{" "}
-              ) I am eager to continue my tech journey. I have a background in
-              chemistry but I am motivated to start a career in tech and join
-              such a fast-growing and exciting industry with many opportunities
-              to learn. I'm ready to apply the problem-solving and analytical
-              skills that I used in my degree and also practise using my
-              creativity and collaboration skills as I move forward.
-              <br />
-              <br />I have really enjoyed learning how to code and am excited to
-              continue learning and applying what I have learnt in a working
-              envionment.
+              ) and am looking forward to continuing my tech career. Despite my
+              background in chemistry, I am passionate about joining the
+              fast-growing tech industry with many opportunities to learn and
+              grow. As I move forward, I intend to apply the problem-solving and
+              analytical skills I developed in my degree and also practice my
+              creativity and collaboration skills. Coding has been a valuable
+              learning experience for me and I am eager to apply what I have
+              learned in a working environment.
             </p>
           </div>
           <div>
