@@ -25,10 +25,10 @@ export function PortfolioApp(): JSX.Element {
               </h1>
               <p className="section--subtitle">React App</p>
               <p className="project-info">
-                This is a personal project that I made to showcase some of the
-                projects I have worked on. I let responsive design be a focus of
-                this app as I wanted to get more familiar with responsive
-                layouts, media quiries and CSS best practices.
+                In this project, I am showcasing some of the projects that I
+                have worked on in the past. To learn more about responsive
+                layouts, media queries, and CSS best practices, I focused on
+                responsive design in this app.
                 <br />
                 <br />
                 The main things I learned from this project are:
@@ -47,7 +47,7 @@ export function PortfolioApp(): JSX.Element {
                     className="iconify iconify-chevron"
                     data-icon="ci:chevron-right"
                   ></span>
-                  A deeper understanding of features of CSS including custom
+                  A deeper understanding of CSS features including custom
                   properties, compound selectors, child selectors and media
                   queries.
                 </li>
